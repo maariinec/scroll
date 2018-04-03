@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica,Tahoma;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+.block{
+    display: inline;
+    width: 50%;
+    height: 50%;
+}
+.block:hover{
+  opacity: 0.5 !important;
+  filter: alpha(opacity=30);
+}
+
+.block--left {
+  float: left;
+}
+.block--right{
+  float: right;
+}
+
+.block__one{
+  background-color: red;
+}
+.block__two{
+  background-color: orange;
+}
+.block__three{
+  background-color: blue;
+}
+.block__four{
+  background-color: green;
+}
+.block__five{
+  background-color: pink;
+}
+.block__six{
+  background-color: yellow;
+}
